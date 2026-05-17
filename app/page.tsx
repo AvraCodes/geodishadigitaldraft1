@@ -1,4 +1,3 @@
-import { SmoothScroll } from '@/components/animations/smooth-scroll'
 import { Navigation } from '@/components/sections/navigation'
 import { Hero } from '@/components/sections/hero'
 import { TheGap } from '@/components/sections/the-gap'
@@ -14,32 +13,30 @@ import { Footer } from '@/components/sections/footer'
 
 export default function Home() {
   return (
-    <SmoothScroll>
-      <main className="relative min-h-screen bg-background overflow-x-hidden">
-        <Navigation />
-        
-        <Hero />
-        
-        <TheGap />
-        
-        <CoreBelief />
-        
-        <IntelligenceModel />
-        
-        <Services />
-        
-        <Nurturing />
-        
-        <WhoWeWork />
-        
-        <Credibility />
-        
-        <Engagement />
-        
-        <FinalCTA />
-        
-        <Footer />
-      </main>
-    </SmoothScroll>
+    <main className="relative min-h-screen bg-background overflow-x-hidden">
+      <Navigation />
+      
+      <Hero />
+      
+      <TheGap />
+      
+      <CoreBelief />
+      
+      <IntelligenceModel />
+      
+      <Services />
+      
+      <Nurturing />
+      
+      <WhoWeWork />
+      
+      <Credibility />
+      
+      <Engagement />
+      
+      <FinalCTA />
+      
+      <Footer />
+    </main>
   )
 }
